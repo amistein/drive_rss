@@ -3,6 +3,9 @@ name: run generate_feed.py
 on:
   schedule:
     - cron: '*/15 * * * *' # Every 15 minutes
+  push:
+    branches:
+      - master
 
 jobs:
   build:
