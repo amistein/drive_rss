@@ -28,7 +28,7 @@ jobs:
       - name: execute py script # run main.py
         env:
           SOME_SECRET: ${{ secrets.API_KEY }}
-        run: python main.py
+        run: python generate_feed.py --folder 1BHbQmZQxKgymBKP4ONZ93OTpgiAxmTpU --apikey ${{ secrets.API_KEY }}
           
       - name: commit files
         run: |
