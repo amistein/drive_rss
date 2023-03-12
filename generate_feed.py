@@ -20,8 +20,6 @@ def parse(folder_id, api_key):
     r = requests.get(url)
     files = r.json()
     items = []
-    g = [list(f.keys()) for f in files["files"]]
-    print('amrom', len(g), g)
     for f in files["files"]:
         direct_link = "https://drive.google.com/uc?export=download&id=%s"%f["id"]
         date_string = f["createdTime"].replace("T", " ").replace("Z", "+00:00")
