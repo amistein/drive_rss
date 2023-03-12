@@ -36,9 +36,14 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git status
-          git pull
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
+
+      - name: gh-pages
+        run: |
+          git checkout gh-pages
+          git pull
+          git merge master
           
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
