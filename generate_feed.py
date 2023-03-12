@@ -21,15 +21,19 @@ def parse(folder_id, api_key):
     r = requests.get(folder_url)
     folder = r.json()
     # TODO handle pagination
-    url = "https://www.googleapis.com/drive/v3/files?q=%%27%s%%27%%20in%%20parents&key=%s&fields=kind,nextPageToken,files(id,name,mimeType,createdTime,size,fileExtension)&pageSize=1000"%(folder_id, api_key)
+    # url = "https://www.googleapis.com/drive/v3/files?q=%%27%s%%27%%20in%%20parents&key=%s&fields=kind,nextPageToken,files(id,name,mimeType,createdTime,size,fileExtension)&pageSize=1000"%(folder_id, api_key)
+    url = "https://www.googleapis.com/drive/v3/files?q=%%27%s%%27%%20in%%20parents&key=%s&fields=kind,nextPageToken,files(id,name,mimeType,createdTime)&pageSize=1000"%(folder_id, api_key)
     r = requests.get(url)
     files = r.json()
     items = []
+    g = [list(f.keys()) for f in files["files"]]
+    print('amrom', len(g), g)
     for f in files["files"]:
         direct_link = "https://drive.google.com/uc?export=download&id=%s"%f["id"]
         date_string = f["createdTime"].replace("T", " ").replace("Z", "+00:00")
         created_date = datetime.fromisoformat(date_string)
-        item = {"id": f["id"], "name": f["name"], "size": f["size"], "type": f["mimeType"], "created": created_date, "direct_link": direct_link}
+        # item = {"id": f["id"], "name": f["name"], "size": f["size"], "type": f["mimeType"], "created": created_date, "direct_link": direct_link}
+        item = {"id": f["id"], "name": f["name"], "type": f["mimeType"], "created": created_date, "direct_link": direct_link}
         items.append(item)
     items = sorted(items, key=lambda x: x["created"])
     folder_link = "https://drive.google.com/drive/folders/%s"%folder_id
@@ -45,7 +49,7 @@ def create_feed(folder):
         fe = fg.add_entry()
         fe.id(item["direct_link"])
         fe.title(item["name"])
-        fe.enclosure(item["direct_link"], str(item["size"]), item["type"])
+        fe.enclosure(item["direct_link"], type=item["type"])
         fe.pubDate(item["created"])
     fg.rss_file("%s.xml"%folder["title"], pretty=True)
 
