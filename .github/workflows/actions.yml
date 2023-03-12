@@ -38,16 +38,9 @@ jobs:
           git status
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
-
-      - name: update gh-pages branch
-        run: |
-          git fetch
-          git checkout gh-pages
-          git pull
-          git merge master
           
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages 
+          branch: master
