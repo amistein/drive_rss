@@ -21,8 +21,7 @@ def parse(folder_id, api_key):
     r = requests.get(folder_url)
     folder = r.json()
     # TODO handle pagination
-    # url = "https://www.googleapis.com/drive/v3/files?q=%%27%s%%27%%20in%%20parents&key=%s&fields=kind,nextPageToken,files(id,name,mimeType,createdTime,size,fileExtension)&pageSize=1000"%(folder_id, api_key)
-    url = "https://www.googleapis.com/drive/v3/files?q=%%27%s%%27%%20in%%20parents&key=%s&fields=kind,nextPageToken,files(id,name,mimeType,createdTime)&pageSize=1000"%(folder_id, api_key)
+    url = "https://www.googleapis.com/drive/v3/files?q=%%27%s%%27%%20in%%20parents&key=%s&fields=kind,nextPageToken,files(id,name,mimeType,createdTime,size,fileExtension)&pageSize=1000"%(folder_id, api_key)
     r = requests.get(url)
     files = r.json()
     items = []
@@ -32,8 +31,7 @@ def parse(folder_id, api_key):
         direct_link = "https://drive.google.com/uc?export=download&id=%s"%f["id"]
         date_string = f["createdTime"].replace("T", " ").replace("Z", "+00:00")
         created_date = datetime.fromisoformat(date_string)
-        # item = {"id": f["id"], "name": f["name"], "size": f["size"], "type": f["mimeType"], "created": created_date, "direct_link": direct_link}
-        item = {"id": f["id"], "name": f["name"], "type": f["mimeType"], "created": created_date, "direct_link": direct_link}
+        item = {"id": f["id"], "name": f["name"], "size": f["size"], "type": f["mimeType"], "created": created_date, "direct_link": direct_link}
         items.append(item)
     items = sorted(items, key=lambda x: x["created"])
     folder_link = "https://drive.google.com/drive/folders/%s"%folder_id
