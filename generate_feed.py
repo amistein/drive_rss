@@ -3,17 +3,12 @@
 
 # parsing
 import requests
-import re
-import codecs
-import json
 from datetime import datetime
-from datetime import timezone
 
 # writing
 from feedgen.feed import FeedGenerator
 
 # cli
-import sys
 import click
 
 def parse(folder_id, api_key):
@@ -47,7 +42,7 @@ def create_feed(folder):
         fe = fg.add_entry()
         fe.id(item["direct_link"])
         fe.title(item["name"])
-        fe.enclosure(item["direct_link"], type=item["type"])
+        fe.enclosure(item["direct_link"], str(item["size"]), item["type"])
         fe.pubDate(item["created"])
     fg.rss_file("%s.xml"%folder["title"], pretty=True)
 
