@@ -20,6 +20,14 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.9' # install the python version needed
+
+      - name: merge master into gh-pages
+        run: |
+          git fetch --unshallow
+          git checkout gh-pages
+          git pull
+          git merge --no-ff master -m "Auto-merge master back to gh-pages"
+          git push
           
       - name: install python packages
         run: |
@@ -43,4 +51,4 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
+          branch: gh-pages
