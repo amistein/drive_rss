@@ -6,12 +6,12 @@
     <description>Auto-generated feed from a Drive folder</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 05 Nov 2023 00:52:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Nov 2023 01:53:25 +0000</lastBuildDate>
     <item>
-      <title>הר''ר יעקב נתן אנשין (ע) - לא חייבים להבין את הכל, גם במצב מלחמה אפשר להמשיך לעבוד את השם - יד בנימין - א לך לך תשפ''ד.MP3</title>
-      <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1Rg8faKSt0j4cYvXZvQaDPyz0e7hkf7hd</guid>
-      <enclosure url="https://drive.google.com/uc?export=download&amp;id=1Rg8faKSt0j4cYvXZvQaDPyz0e7hkf7hd" length="20061904" type="audio/mpeg"/>
-      <pubDate>Thu, 26 Oct 2023 23:57:10 +0000</pubDate>
+      <title>יום א’ פרשת וירא - מלחמת הדרום - תשפד • חֲרָטַת הקבה מִבְּרִיאַת יִשְׁמָעֵאל - כוח התורה לעומת ישמעאל {ד’}, Parashat Vayeiro - Harav Menashe Yisrael Reizma.mp3</title>
+      <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1JOMTUH5OhpgANFBY46LQqi4DkCVKf_or</guid>
+      <enclosure url="https://drive.google.com/uc?export=download&amp;id=1JOMTUH5OhpgANFBY46LQqi4DkCVKf_or" length="17584253" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Nov 2023 00:56:07 +0000</pubDate>
     </item>
     <item>
       <title>ספר יהושע פרק א פסוקים י-יח - הרב מנשה ישראל רייזמאן - ה אב, תשפא31576010.mp3</title>
@@ -60,12 +60,6 @@
       <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1A9nlXUU1b2YEtvF0iQnO1JwxT_KrN7Yr</guid>
       <enclosure url="https://drive.google.com/uc?export=download&amp;id=1A9nlXUU1b2YEtvF0iQnO1JwxT_KrN7Yr" length="13081095" type="audio/mpeg"/>
       <pubDate>Sun, 06 Aug 2023 18:53:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hilchot-Tzniut-5775-Shiur-3.mp3</title>
-      <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1UNbmbXWEMElnwnVyNP7h-BCElhbmNgpI</guid>
-      <enclosure url="https://drive.google.com/uc?export=download&amp;id=1UNbmbXWEMElnwnVyNP7h-BCElhbmNgpI" length="6192600" type="audio/mpeg"/>
-      <pubDate>Sun, 02 Jul 2023 02:21:42 +0000</pubDate>
     </item>
   </channel>
 </rss>
