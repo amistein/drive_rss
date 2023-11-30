@@ -6,7 +6,13 @@
     <description>Auto-generated feed from a Drive folder</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 30 Nov 2023 21:10:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Nov 2023 21:20:17 +0000</lastBuildDate>
+    <item>
+      <title>coaching_1.mp3</title>
+      <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1ubvexT0izRC054nkUpLw4D-PRa5lYiqP</guid>
+      <enclosure url="https://drive.google.com/uc?export=download&amp;id=1ubvexT0izRC054nkUpLw4D-PRa5lYiqP" length="25183713" type="audio/mpeg"/>
+      <pubDate>Thu, 30 Nov 2023 21:16:00 +0000</pubDate>
+    </item>
     <item>
       <title>הר''ר יעקב נתן אנשין (ע) - העצה הנפלאה של התקשרות לצדיק - רכסים - וירא תשפ''ד.MP3</title>
       <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1ERsurQh_cHNkv6bIz1oUdIRmBXqrSCgL</guid>
