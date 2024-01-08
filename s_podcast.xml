@@ -6,7 +6,13 @@
     <description>Auto-generated feed from a Drive folder</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 08 Jan 2024 11:20:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jan 2024 11:34:26 +0000</lastBuildDate>
+    <item>
+      <title>240104-221945.MP3</title>
+      <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1Wj2rJjFYam37x754l045IcpuMcRtKxUa</guid>
+      <enclosure url="https://drive.google.com/uc?export=download&amp;id=1Wj2rJjFYam37x754l045IcpuMcRtKxUa" length="14567758" type="audio/mpeg"/>
+      <pubDate>Mon, 08 Jan 2024 11:24:08 +0000</pubDate>
+    </item>
     <item>
       <title>הר''ר יעקב נתן אנשין - שאלות ותשובות בעבודת השם - נועם השם ירושלים - חנוכה תשפ''ד.mp3</title>
       <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1hlIfBjQxf4t3g6lp1E_y0Wbqkm5lZbZk</guid>
@@ -24,12 +30,6 @@
       <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1c5YKrQZr-Tnw24qzu1ILwx0EcuG-TWGi</guid>
       <enclosure url="https://drive.google.com/uc?export=download&amp;id=1c5YKrQZr-Tnw24qzu1ILwx0EcuG-TWGi" length="18252183" type="audio/mpeg"/>
       <pubDate>Fri, 01 Dec 2023 02:20:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>coaching_1.mp3</title>
-      <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1ubvexT0izRC054nkUpLw4D-PRa5lYiqP</guid>
-      <enclosure url="https://drive.google.com/uc?export=download&amp;id=1ubvexT0izRC054nkUpLw4D-PRa5lYiqP" length="25183713" type="audio/mpeg"/>
-      <pubDate>Thu, 30 Nov 2023 21:16:00 +0000</pubDate>
     </item>
     <item>
       <title>הר''ר יעקב נתן אנשין (ע) - העצה הנפלאה של התקשרות לצדיק - רכסים - וירא תשפ''ד.MP3</title>
