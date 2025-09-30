@@ -6,7 +6,13 @@
     <description>Auto-generated feed from a Drive folder</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 30 Sep 2025 12:32:09 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Sep 2025 13:17:14 +0000</lastBuildDate>
+    <item>
+      <title>lm6.mp3</title>
+      <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1yovl6toebPkUNIKavKV_4SL17vVhkIfd</guid>
+      <enclosure url="https://drive.google.com/uc?export=download&amp;id=1yovl6toebPkUNIKavKV_4SL17vVhkIfd" length="10142636" type="audio/mpeg"/>
+      <pubDate>Tue, 30 Sep 2025 13:04:45 +0000</pubDate>
+    </item>
     <item>
       <title>#5 Introduction to Kabbalah (Likutei Moharan Yomi #5).mp3</title>
       <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1NgSPhQMnNel1sCMYM7XQzAHb34SW-mND</guid>
@@ -24,18 +30,6 @@
       <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1To-0LoZS--Pc_JNbE6yVETHZ9H4-lMdE</guid>
       <enclosure url="https://drive.google.com/uc?export=download&amp;id=1To-0LoZS--Pc_JNbE6yVETHZ9H4-lMdE" length="41437290" type="audio/mpeg"/>
       <pubDate>Mon, 29 Sep 2025 18:45:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>lm5.mp3</title>
-      <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1sxG2Gzwc4GZOm17khzFz8-Vbspwq1c34</guid>
-      <enclosure url="https://drive.google.com/uc?export=download&amp;id=1sxG2Gzwc4GZOm17khzFz8-Vbspwq1c34" length="10888748" type="audio/mpeg"/>
-      <pubDate>Mon, 29 Sep 2025 18:44:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rosh hashana masterclass.mp3</title>
-      <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;id=1lnXrl2I1I_fIHZwr0vV4HdRQqDXmneN2</guid>
-      <enclosure url="https://drive.google.com/uc?export=download&amp;id=1lnXrl2I1I_fIHZwr0vV4HdRQqDXmneN2" length="60975328" type="audio/mpeg"/>
-      <pubDate>Mon, 29 Sep 2025 01:40:46 +0000</pubDate>
     </item>
     <item>
       <title>תיקון-הכללי-•-הגרש-מייקוף-02.mp3</title>
